@@ -20,8 +20,5 @@ func main() {
 		span, ctx := tracer.StartSpanFromContext(ctx, "main")
 		pkg.Hello(ctx)
 		span.Finish()
-		span, ctx = tracer.StartSpanFromContext(ctx, "main2")
-		pkg.Hello(ctx)
-		span.Finish()
 	}
 }
