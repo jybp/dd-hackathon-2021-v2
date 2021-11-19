@@ -51,6 +51,10 @@ github.com/jybp/dd-trace-go v1.50.2 h1:G3GQS/5eT+vpUbwitdJaax3uMp7SxLSx3Z//wutgJ
 github.com/jybp/dd-trace-go v1.50.2/go.mod h1:qVL+aXhY8gmtB+3Xr0T/WqoqLMic2pQs2yN9g/v1iTQ=
 github.com/jybp/dd-trace-go v1.50.3 h1:Ja1NT+SW4SJCadg5FzPnbaRgQdgOA9okenC4E3cW4uY=
 github.com/jybp/dd-trace-go v1.50.3/go.mod h1:qVL+aXhY8gmtB+3Xr0T/WqoqLMic2pQs2yN9g/v1iTQ=
+github.com/jybp/dd-trace-go v1.50.4 h1:wYGCCEhe2p3HG8lUcNQca5MLMqnNo1qbuixAGEEqkwE=
+github.com/jybp/dd-trace-go v1.50.4/go.mod h1:qVL+aXhY8gmtB+3Xr0T/WqoqLMic2pQs2yN9g/v1iTQ=
+github.com/jybp/dd-trace-go v1.50.5 h1:XMClBMJefN64m+pe7LlMpgcHQxAMup/nYe82jnR2O94=
+github.com/jybp/dd-trace-go v1.50.5/go.mod h1:qVL+aXhY8gmtB+3Xr0T/WqoqLMic2pQs2yN9g/v1iTQ=
 github.com/opentracing/opentracing-go v1.2.0 h1:uEJPy/1a5RIPAJ0Ov+OIO8OxWu77jEv+1B0VhjKrZUs=
 github.com/opentracing/opentracing-go v1.2.0/go.mod h1:GxEUsuufX4nBwe+T+Wl9TAgYrxe9dPLANfrWvHYVTgc=
 github.com/philhofer/fwd v1.1.1 h1:GdGcTjf5RNAxwS4QLsiMzJYj5KEvPJD3Abr261yRQXQ=
