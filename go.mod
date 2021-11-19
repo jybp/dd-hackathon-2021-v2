@@ -1,4 +1,4 @@
-module github.com/jybp/dd-hackathon-2021
+module github.com/jybp/dd-hackathon-2021-v2
 
 go 1.16
 
