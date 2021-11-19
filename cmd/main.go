@@ -11,13 +11,16 @@ func main() {
 	rules := []tracer.SamplingRule{tracer.RateRule(1)}
 	tracer.Start(
 		tracer.WithSamplingRules(rules),
-		tracer.WithService("jb-hackathon-2021"),
+		tracer.WithService("jb-hackathon-2021-v2"),
 		tracer.WithEnv("dev"),
 	)
 	defer tracer.Stop()
 	ctx := context.Background()
 	for {
-		span, ctx := tracer.StartSpanFromContext(ctx, "main")
+		span, ctx := tracer.StartSpanFromContext(ctx, "main"1)
+		pkg.Hello(ctx)
+		span.Finish()
+		span, ctx := tracer.StartSpanFromContext(ctx, "main2")
 		pkg.Hello(ctx)
 		span.Finish()
 	}
