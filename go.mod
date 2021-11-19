@@ -2,7 +2,7 @@ module github.com/jybp/dd-hackathon-2021-v2
 
 go 1.16
 
-replace gopkg.in/DataDog/dd-trace-go.v1 => github.com/jybp/dd-trace-go v1.50.2
+replace gopkg.in/DataDog/dd-trace-go.v1 => github.com/jybp/dd-trace-go v1.50.3
 
 require (
 	github.com/Microsoft/go-winio v0.5.1 // indirect
